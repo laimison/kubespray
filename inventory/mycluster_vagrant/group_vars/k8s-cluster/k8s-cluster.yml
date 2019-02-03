@@ -53,7 +53,7 @@ kube_users:
 ## It is possible to activate / deactivate selected authentication methods (basic auth, static token auth)
 #kube_oidc_auth: false
 #kube_basic_auth: false
-kube_token_auth: false
+#kube_token_auth: false
 
 
 ## Variables for OpenID Connect Configuration https://kubernetes.io/docs/admin/authentication/
@@ -71,7 +71,8 @@ kube_token_auth: false
 
 # Choose network plugin (cilium, calico, contiv, weave or flannel)
 # Can also be set to 'cloud', which lets the cloud provider setup appropriate routing
-kube_network_plugin: calico
+# kube_network_plugin: calico
+kube_network_plugin: canal
 
 # Setting multi_networking to true will install Multus: https://github.com/intel/multus-cni
 kube_network_plugin_multus: false
