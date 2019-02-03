@@ -36,7 +36,7 @@ $vm_cpus = 1
 $shared_folders = {}
 $forwarded_ports = {}
 $subnet = "172.17.8"
-$os = "ubuntu1804"
+$os = "centos"
 $network_plugin = "flannel"
 # Setting multi_networking to true will install Multus: https://github.com/intel/multus-cni
 $multi_networking = false
