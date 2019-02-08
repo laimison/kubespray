@@ -28,7 +28,7 @@ SUPPORTED_OS = {
 }
 
 # Defaults for config options defined in CONFIG
-$num_instances = 6
+$num_instances = 5
 $instance_name_prefix = "k8s"
 $vm_gui = false
 $vm_memory = 2048
